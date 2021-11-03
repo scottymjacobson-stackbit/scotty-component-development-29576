@@ -72,7 +72,7 @@ sections:
       - url: images/hilary-ouse.jpg
         altText: Hilary Ouse
       - altText: Diane
-        caption: lorem-ipsum
+        caption: Diane
         elementId: ''
         styles:
           self:
