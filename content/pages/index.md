@@ -95,7 +95,7 @@ sections:
         caption: Diane Caption
         elementId: ''
         type: ImageBlock
-      - altText: lorem-ipsum
+      - altText: Diamond Eagle
         caption: Diamond Eagle
         elementId: ''
         styles:
