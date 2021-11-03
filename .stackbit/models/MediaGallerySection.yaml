@@ -24,11 +24,11 @@ fields:
     #   - type: ImageBlock
     #     url: /images/dianne-ameter.jpg
     #     altText: Product Marketing Manager
-    - type: boolean
-    name: showIcon
-    group: styles
-    label: Show icon
-    default: false
+  - type: boolean
+  name: showIcon
+  group: styles
+  label: Show icon
+  default: false
   - type: style
     name: styles
     styles:
