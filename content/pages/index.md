@@ -74,6 +74,13 @@ sections:
       - url: images/hilary-ouse.jpg
         altText: Hilary Ouse
         caption: Hilary Caption
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
       - url: /images/dianne-ameter.jpg
         altText: Diane Ameter
         caption: Diane Caption
