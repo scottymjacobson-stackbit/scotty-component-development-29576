@@ -74,7 +74,7 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
     }
     return (
         <div
-            className={classNames('grid', 'grid-cols-4 p-4')}
+            className={classNames('grid', 'grid-cols-4')}
             data-sb-field-path=".logos"
         >
             {images.map((image, index) => (
