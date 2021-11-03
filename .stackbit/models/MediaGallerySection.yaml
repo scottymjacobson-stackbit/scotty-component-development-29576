@@ -29,8 +29,8 @@ fields:
     label: Show caption
     default: false
   - type: boolean
-    name: showCaption
-    label: Show caption
+    name: enableHover
+    label: Enable hover
     default: false
   - type: style
     name: styles
