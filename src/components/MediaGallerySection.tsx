@@ -59,7 +59,7 @@ function LogoImage({ image, index }: { image: Image; index: number }) {
     if (!image) {
         return null;
     }
-    
+
     return (
         <div className="h-0 w-full pt-1/1 relative items-center">
             <ImageBlock {...image} className="absolute left-0 h-full object-contain top-0 w-full" />
