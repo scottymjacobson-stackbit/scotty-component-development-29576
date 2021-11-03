@@ -65,6 +65,25 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
+  - colors: colors-a
+    backgroundWidth: full
+    elementId: ''
+    images:
+      - url: images/hilary-ouse.jpg
+        altText: Hilary Ouse
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+        alignItems: center
+        justifyContent: center
+    type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
