@@ -95,6 +95,13 @@ sections:
         caption: Diane Caption
         elementId: ''
         type: ImageBlock
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     styles:
       self:
         height: auto
