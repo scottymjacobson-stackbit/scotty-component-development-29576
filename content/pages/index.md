@@ -89,6 +89,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/hugh-saturation.jpg
       - url: /images/dianne-ameter.jpg
         altText: Diane Ameter
         caption: Diane Caption
