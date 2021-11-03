@@ -25,9 +25,9 @@ fields:
     #     url: /images/dianne-ameter.jpg
     #     altText: Product Marketing Manager
   - type: boolean
-  name: showCaption
-  label: Show caption
-  default: false
+    name: showCaption
+    label: Show caption
+    default: false
   - type: style
     name: styles
     styles:
