@@ -28,6 +28,10 @@ fields:
     name: showCaption
     label: Show caption
     default: false
+    - type: boolean
+    name: showCaption
+    label: Show caption
+    default: false
   - type: style
     name: styles
     styles:
