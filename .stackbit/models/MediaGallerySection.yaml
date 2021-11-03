@@ -24,6 +24,8 @@ fields:
     #   - type: ImageBlock
     #     url: /images/dianne-ameter.jpg
     #     altText: Product Marketing Manager
+  - type: bool
+    name: 
   - type: style
     name: styles
     styles:
