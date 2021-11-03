@@ -78,11 +78,6 @@ sections:
         caption: Diane Caption
         elementId: ''
         type: ImageBlock
-      - url: /images/dianne-ameter.jpg
-        altText: Diane Ameter
-        caption: Diane Caption
-        elementId: ''
-        type: ImageBlock
     styles:
       self:
         height: auto
