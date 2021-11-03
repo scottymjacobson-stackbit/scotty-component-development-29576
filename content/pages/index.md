@@ -92,7 +92,7 @@ sections:
         alignItems: center
         justifyContent: center
     type: MediaGallerySection
-    showCaption: false
+    showCaption: true
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
