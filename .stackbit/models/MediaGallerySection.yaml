@@ -26,8 +26,7 @@ fields:
     #     altText: Product Marketing Manager
   - type: boolean
   name: showCaption
-  group: styles
-  label: Show icon
+  label: Show caption
   default: false
   - type: style
     name: styles
