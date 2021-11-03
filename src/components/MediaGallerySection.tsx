@@ -58,7 +58,7 @@ function LogoImage({ image, index }: { image: Image; index: number }) {
     return (
         <article data-sb-field-path={`.${index}`}>
             {image && (
-                <div className="h-0 w-full pt-1/1 relative items-center p-4" data-sb-field-path=".image">
+                <div className="h-0 w-full pt-1/1 relative items-center" data-sb-field-path=".image">
                     <ImageBlock {...image} className="absolute left-0 h-full object-contain top-0 w-full" />
                 </div>
             )}
