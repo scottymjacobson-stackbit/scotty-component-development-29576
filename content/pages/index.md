@@ -83,7 +83,7 @@ sections:
         type: ImageBlock
         url: /images/about.jpg
       - altText: lorem-ipsum
-        caption: lorem-ipsum
+        caption: Dude with flower
         elementId: ''
         styles:
           self:
