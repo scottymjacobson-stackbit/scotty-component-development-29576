@@ -96,7 +96,7 @@ sections:
         elementId: ''
         type: ImageBlock
       - altText: lorem-ipsum
-        caption: lorem-ipsum
+        caption: Diamond Eagle
         elementId: ''
         styles:
           self:
