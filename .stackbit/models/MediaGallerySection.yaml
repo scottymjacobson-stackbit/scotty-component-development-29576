@@ -31,7 +31,7 @@ fields:
   - type: boolean
     name: enableHover
     label: Enable hover
-    default: false
+    default: true
   - type: style
     name: styles
     styles:
