@@ -115,7 +115,7 @@ sections:
           - pb-12
         alignItems: flex-end
         justifyContent: flex-end
-    enableHover: true
+    enableHover: false
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
