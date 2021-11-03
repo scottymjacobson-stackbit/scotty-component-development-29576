@@ -78,6 +78,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/dianne-ameter.jpg
     styles:
       self:
         height: auto
