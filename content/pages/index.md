@@ -91,8 +91,6 @@ sections:
           - pb-12
         alignItems: flex-end
         justifyContent: flex-end
-    type: MediaGallerySection
-    showCaption: false
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
