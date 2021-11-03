@@ -102,6 +102,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/desmond-eagle.jpg
     styles:
       self:
         height: auto
