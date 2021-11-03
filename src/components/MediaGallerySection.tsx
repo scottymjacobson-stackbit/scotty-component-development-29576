@@ -2,7 +2,6 @@ import * as React from 'react';
 import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
-
 type BaseSectionComponentProps = {
     annotationPrefix: string;
     elementId: string;
@@ -11,10 +10,12 @@ type BaseSectionComponentProps = {
 type Image = {
     url: string;
     altText: string;
+    caption: string;
 };
 
 export type MediaGallerySectionProps = BaseSectionComponentProps & {
     images?: Image[];
+    spacing?: number;
     styles?: any;
 };
 
@@ -55,15 +56,14 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
 }
 
 function LogoImage({ image, index }: { image: Image; index: number }) {
+    if (!image) {
+        return null;
+    }
+    
     return (
-        <article data-sb-field-path={`.${index}`}>
-            {image && (
-                <div className="h-0 w-full pt-1/1 relative items-center" data-sb-field-path=".image">
-                    <ImageBlock {...image} className="absolute left-0 h-full object-contain top-0 w-full" />
-                </div>
-            )}
-            {/* TODO: caption */}
-        </article>
+        <div className="h-0 w-full pt-1/1 relative items-center">
+            <ImageBlock {...image} className="absolute left-0 h-full object-contain top-0 w-full" />
+        </div>
     );
 }
 
@@ -75,10 +75,12 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
     return (
         <div
             className={classNames('grid', 'grid-cols-4')}
-            data-sb-field-path=".logos"
+            data-sb-field-path=".images"
         >
             {images.map((image, index) => (
-                <LogoImage image={image} key={`image-${index}`} index={index} />
+                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className={classNames({ [`p-${props.spacing}`]: props.spacing })}>
+                    <LogoImage image={image} index={index} />
+                </div>
             ))}
         </div>
     );
