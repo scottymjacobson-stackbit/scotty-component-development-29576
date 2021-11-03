@@ -65,7 +65,7 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
-  - colors: colors-a
+  - colors: colors-b
     backgroundWidth: full
     elementId: ''
     images:
