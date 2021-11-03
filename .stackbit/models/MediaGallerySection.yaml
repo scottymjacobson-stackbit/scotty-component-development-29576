@@ -17,13 +17,7 @@ fields:
     items:
       type: model
       models: [ImageBlock]
-    # default:
-    #   - type: ImageBlock
-    #     url: /images/dianne-ameter.jpg
-    #     altText: Product Marketing Manager
-    #   - type: ImageBlock
-    #     url: /images/dianne-ameter.jpg
-    #     altText: Product Marketing Manager
+      # TODO - default
   - type: boolean
     name: showCaption
     label: Show caption
