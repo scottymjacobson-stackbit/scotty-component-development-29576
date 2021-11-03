@@ -81,6 +81,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/about.jpg
       - url: /images/dianne-ameter.jpg
         altText: Diane Ameter
         caption: Diane Caption
