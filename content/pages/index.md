@@ -71,6 +71,13 @@ sections:
     images:
       - url: images/hilary-ouse.jpg
         altText: Hilary Ouse
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     styles:
       self:
         height: auto
