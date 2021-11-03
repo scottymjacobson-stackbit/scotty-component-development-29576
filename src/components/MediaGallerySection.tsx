@@ -2,6 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
+
 type BaseSectionComponentProps = {
     annotationPrefix: string;
     elementId: string;
@@ -62,7 +63,7 @@ function LogoImage({ image, index }: { image: Image; index: number }) {
 
     return (
         <div className="h-0 w-full pt-1/1 relative items-center">
-            <ImageBlock {...image} className="absolute left-0 h-full object-contain top-0 w-full" />
+            <ImageBlock {...image} className="absolute left-0 h-full object-cover top-0 w-full" />
         </div>
     );
 }
@@ -73,12 +74,9 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
         return null;
     }
     return (
-        <div
-            className={classNames('grid', 'grid-cols-4')}
-            data-sb-field-path=".images"
-        >
+        <div className={classNames('grid', `grid-cols-${images.length}`)} data-sb-field-path=".images">
             {images.map((image, index) => (
-                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className={classNames({ [`p-${props.spacing}`]: props.spacing })}>
+                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="p-2">
                     <LogoImage image={image} index={index} />
                 </div>
             ))}
