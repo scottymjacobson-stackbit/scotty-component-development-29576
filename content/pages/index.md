@@ -75,7 +75,7 @@ sections:
         altText: Hilary Ouse
         caption: Hilary Caption
       - altText: lorem-ipsum
-        caption: lorem-ipsum
+        caption: People at desk
         elementId: ''
         styles:
           self:
