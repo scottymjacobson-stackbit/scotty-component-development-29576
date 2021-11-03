@@ -28,7 +28,7 @@ fields:
     name: showCaption
     label: Show caption
     default: false
-    - type: boolean
+  - type: boolean
     name: showCaption
     label: Show caption
     default: false
