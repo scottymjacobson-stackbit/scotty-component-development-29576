@@ -82,6 +82,13 @@ sections:
             opacity: 100
         type: ImageBlock
         url: /images/about.jpg
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
       - url: /images/dianne-ameter.jpg
         altText: Diane Ameter
         caption: Diane Caption
