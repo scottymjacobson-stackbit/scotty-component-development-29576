@@ -56,7 +56,7 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
     );
 }
 
-function LogoImage({ image, index }: { image: Image; index: number }) {
+function LogoImage({ image }: { image: Image }) {
     if (!image) {
         return null;
     }
@@ -84,7 +84,7 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
         >
             {images.map((image, index) => (
                 <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="p-2">
-                    <LogoImage image={image} index={index} />
+                    <LogoImage image={image} />
                 </div>
             ))}
         </div>
