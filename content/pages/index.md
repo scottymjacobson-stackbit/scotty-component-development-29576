@@ -66,7 +66,7 @@ sections:
       actions:
         justifyContent: flex-start
   - colors: colors-a
-    backgroundWidth: inset
+    backgroundWidth: full
     elementId: ''
     images:
       - url: images/hilary-ouse.jpg
