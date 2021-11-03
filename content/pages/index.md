@@ -73,7 +73,6 @@ sections:
     images:
       - url: images/hilary-ouse.jpg
         altText: Hilary Ouse
-      - altText: Hilary Ouse
       - url: /images/dianne-ameter.jpg
         altText: Diane Ameter
         caption: Diane Caption
