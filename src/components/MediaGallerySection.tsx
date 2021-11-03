@@ -16,7 +16,7 @@ type Image = {
 
 export type MediaGallerySectionProps = BaseSectionComponentProps & {
     images?: Image[];
-    spacing?: number;
+    showCaption: boolean;
     styles?: any;
 };
 
@@ -83,8 +83,9 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
             }}
         >
             {images.map((image, index) => (
-                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="p-2">
+                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="relative p-2">
                     <LogoImage image={image} />
+                    {props.showCaption ? <div className="absolute left-4 bottom-4 text-white text-xs text-left leading-4">Caption</div> : null}
                 </div>
             ))}
         </div>
