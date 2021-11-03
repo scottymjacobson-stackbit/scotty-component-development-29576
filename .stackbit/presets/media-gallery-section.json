@@ -1,0 +1,10 @@
+{
+    "model": "MediaGallerySection",
+    "presets": [{
+            "label": "4 columns images",
+            "thumbnail": "images/people-4-col-light.png",
+            "data": {
+            }
+        }
+    ]
+}
