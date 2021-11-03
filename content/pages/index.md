@@ -65,7 +65,7 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
-  -     type: MediaGallerySection
+  - type: MediaGallerySection
     showCaption: false
     colors: colors-a
     backgroundWidth: full
