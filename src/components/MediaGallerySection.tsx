@@ -73,8 +73,15 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
     if (images.length === 0) {
         return null;
     }
+
     return (
-        <div className={classNames('grid', `grid-cols-${images.length}`)} data-sb-field-path=".images">
+        <div
+            className={classNames('grid')}
+            data-sb-field-path=".images"
+            style={{
+                gridTemplateColumns: `repeat(${images.length}, minmax(0, 1fr))`
+            }}
+        >
             {images.map((image, index) => (
                 <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="p-2">
                     <LogoImage image={image} index={index} />
