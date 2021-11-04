@@ -114,7 +114,7 @@ sections:
         padding:
           - pt-12
           - pb-12
-        alignItems: flex-start
+        alignItems: center
         justifyContent: flex-end
     enableHover: true
   - type: FeaturedPostsSection
