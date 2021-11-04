@@ -113,7 +113,7 @@ sections:
           - mb-0
         padding:
           - pt-12
-          - pb-12
+          - pb-4
         alignItems: flex-end
         justifyContent: center
     enableHover: true
