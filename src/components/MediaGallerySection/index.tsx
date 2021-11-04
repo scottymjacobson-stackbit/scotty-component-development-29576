@@ -97,7 +97,7 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
             {images.map((image, index) => (
                 <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="relative h-0 w-full pt-1/1 relative items-center overflow-hidden">
                     <LogoImage image={image} enableHover={props.enableHover} />
-                    {props.showCaption ? <div className="absolute left-4 bottom-4 text-xs text-left leading-4 pointer-events-none">{image.caption}</div> : null}
+                    {props.showCaption ? <div className="absolute left-2 bottom-2 text-xs text-left pointer-events-none">{image.caption}</div> : null}
                 </div>
             ))}
         </div>
