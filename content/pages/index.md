@@ -96,6 +96,7 @@ sections:
   - type: MediaGallerySection
     showCaption: false
     spacing: 1
+    imageSizePx: 120
     colors: colors-e
     backgroundWidth: full
     elementId: ''
@@ -162,6 +163,7 @@ sections:
         altText: Photo of Flower Man
         caption: Flower Man
     spacing: 1
+    imageSizePx: 120
     showCaption: false
     enableHover: true
     styles:

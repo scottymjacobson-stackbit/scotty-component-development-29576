@@ -19,6 +19,7 @@ type Image = {
 export type MediaGallerySectionProps = BaseSectionComponentProps & {
     images?: Image[];
     spacing?: number;
+    imageSizePx?: number;
     showCaption: boolean;
     enableHover: boolean;
 };
@@ -56,7 +57,16 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                     sectionStyles.padding
                 )}
             >
-                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                <div
+                    className={classNames(
+                        'w-full',
+                        'flex',
+                        'flex-col',
+                        'items-center',
+                        'justify-center',
+                        sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null // TODO - should this width handler be up a level and get rid of this div?
+                    )}
+                >
                     <MediaGalleryImages {...props} />
                 </div>
             </div>
@@ -85,13 +95,20 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
         return null;
     }
 
+    const spacing = props.spacing || 0;
+    const numImages = images.length;
+    const numGaps = images.length <= 1 ? 0 : images.length - 1;
+    const widthString = `calc((${props.imageSizePx}px * ${numImages}) + (${spacing}rem * ${numGaps}))`; // TODO - this is better done through flex
+
     return (
         <div
             className="grid place-items-center"
             data-sb-field-path=".images"
             style={{
                 gridTemplateColumns: `repeat(auto-fit, minmax(0, 1fr))`,
-                gap: props.spacing ? `${props.spacing}rem` : undefined
+                gap: props.spacing ? `${props.spacing}rem` : undefined,
+                width: props.imageSizePx ? widthString : '100%',
+                maxWidth: '100%'
             }}
         >
             {images.map((image, index) => (

@@ -22,6 +22,10 @@ fields:
     name: spacing
     label: Spacing between images
     default: 1
+  - type: number
+    name: imageSizePx
+    label: Image size, in px
+    default: 120
   - type: boolean
     name: showCaption
     label: Show caption
