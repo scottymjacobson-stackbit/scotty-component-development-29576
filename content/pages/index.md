@@ -163,7 +163,7 @@ sections:
         altText: Photo of Flower Man
         caption: Flower Man
     spacing: 1
-    imageSizePx: 120
+    imageSizePx: 150
     showCaption: false
     enableHover: true
     styles:
