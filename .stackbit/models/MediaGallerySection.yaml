@@ -24,7 +24,7 @@ fields:
     default: 1
   - type: number
     name: imageSizePx
-    label: Image size, in px
+    label: Max image size, in px
     default: 120
   - type: boolean
     name: showCaption
