@@ -18,6 +18,10 @@ fields:
       type: model
       models: [ImageBlock]
       # TODO - default
+  - type: number
+    name: spacing
+    label: Spacing between images
+    default: 1
   - type: boolean
     name: showCaption
     label: Show caption
@@ -39,7 +43,7 @@ fields:
     default:
       self:
         height: auto
-        width: wide
+        width: full
         margin: ['mt-0', 'mb-0']
         padding: ['pt-12', 'pb-12']
         alignItems: center

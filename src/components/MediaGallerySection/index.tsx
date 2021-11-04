@@ -19,6 +19,7 @@ type Image = {
 
 export type MediaGallerySectionProps = BaseSectionComponentProps & {
     images?: Image[];
+    spacing?: number;
     showCaption: boolean;
     enableHover: boolean;
 };
@@ -70,14 +71,12 @@ function LogoImage({ image, enableHover }: { image: Image; enableHover: boolean 
     }
 
     return (
-        <div className="h-0 w-full pt-1/1 relative items-center overflow-hidden">
-            <ImageBlock
-                {...image}
-                className={classNames('absolute', 'left-0', 'h-full', 'object-cover', 'top-0', 'w-full', 'transition-transform', {
-                    'hover:scale-105': enableHover
-                })}
-            />
-        </div>
+        <ImageBlock
+            {...image}
+            className={classNames('media-gallery-image', 'absolute', 'left-0', 'top-0', 'h-full', 'w-full', 'object-cover', 'transition-transform', {
+                'hover:scale-105': enableHover
+            })}
+        />
     );
 }
 
@@ -92,11 +91,12 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
             className={classNames('grid')}
             data-sb-field-path=".images"
             style={{
-                gridTemplateColumns: `repeat(${images.length}, minmax(0, 1fr))`
+                gridTemplateColumns: `repeat(${images.length}, minmax(0, 1fr))`,
+                gap: props.spacing ? `${props.spacing}rem` : undefined
             }}
         >
             {images.map((image, index) => (
-                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="relative p-2">
+                <div key={`image-${index}`} data-sb-field-path={`.${index}`} className="relative h-0 w-full pt-1/1 relative items-center overflow-hidden">
                     <LogoImage image={image} enableHover={props.enableHover} />
                     {props.showCaption ? <div className="absolute left-4 bottom-4 text-xs text-left leading-4 pointer-events-none">{image.caption}</div> : null}
                 </div>
