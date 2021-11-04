@@ -69,7 +69,7 @@ sections:
     colors: colors-c
     backgroundWidth: full
     title: Some Fine Folks Who Work With Us
-    subtitle: The section subtitle
+    subtitle: Join the team?
     styles:
       self:
         height: auto
