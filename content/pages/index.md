@@ -69,7 +69,7 @@ sections:
     showCaption: true
     spacing: 1
     colors: colors-b
-    backgroundWidth: inset
+    backgroundWidth: full
     elementId: ''
     images:
       - url: images/hilary-ouse.jpg
