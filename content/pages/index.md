@@ -115,7 +115,7 @@ sections:
           - pt-12
           - pb-12
         alignItems: center
-        justifyContent: flex-end
+        justifyContent: center
     enableHover: true
   - type: FeaturedPostsSection
     variant: variant-c
