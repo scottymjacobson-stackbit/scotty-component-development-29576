@@ -68,7 +68,7 @@ sections:
   - type: MediaGallerySection
     showCaption: true
     spacing: 1
-    colors: colors-b
+    colors: colors-c
     backgroundWidth: full
     elementId: ''
     images:
