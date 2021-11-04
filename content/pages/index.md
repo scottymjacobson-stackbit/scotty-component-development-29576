@@ -68,7 +68,7 @@ sections:
   - type: MediaGallerySection
     showCaption: true
     colors: colors-b
-    backgroundWidth: inset
+    backgroundWidth: full
     elementId: ''
     images:
       - url: images/hilary-ouse.jpg
