@@ -1,6 +1,5 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
 
 type BaseSectionComponentProps = {
@@ -52,9 +51,7 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                     'max-w-screen-2xl',
                     'mx-auto',
                     sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
-                    sectionStyles.padding,
-                    sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null,
-                    sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
+                    sectionStyles.padding
                 )}
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
@@ -88,10 +85,10 @@ function MediaGalleryImages(props: MediaGallerySectionProps) {
 
     return (
         <div
-            className={classNames('grid')}
+            className="grid place-items-center"
             data-sb-field-path=".images"
             style={{
-                gridTemplateColumns: `repeat(${images.length}, minmax(0, 1fr))`,
+                gridTemplateColumns: `repeat(auto-fit, minmax(0, 1fr))`,
                 gap: props.spacing ? `${props.spacing}rem` : undefined
             }}
         >
