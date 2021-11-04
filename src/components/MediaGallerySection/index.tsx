@@ -48,6 +48,7 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                 className={classNames(
                     'flex',
                     'flex-col',
+                    'items-center',
                     'max-w-screen-2xl',
                     'mx-auto',
                     sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
