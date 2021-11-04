@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - type: HeroSection
     elementId: homepage-hero-1
-    colors: colors-b
+    colors: colors-d
     backgroundWidth: full
     title: This Is A Big Hero Headline
     text: >-
