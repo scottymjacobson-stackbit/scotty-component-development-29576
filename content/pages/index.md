@@ -68,7 +68,7 @@ sections:
   - elementId: ''
     colors: colors-c
     backgroundWidth: full
-    title: The Section Title
+    title: Some Fine Folks Who Work With Us
     subtitle: The section subtitle
     styles:
       self:
