@@ -106,7 +106,7 @@ sections:
         url: /images/desmond-eagle.jpg
     styles:
       self:
-        height: auto
+        height: screen
         width: narrow
         margin:
           - mt-0
