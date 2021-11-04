@@ -140,7 +140,7 @@ sections:
           - mt-0
           - mb-0
         padding:
-          - pt-12
+          - pt-4
           - pb-4
         alignItems: flex-end
         justifyContent: center
