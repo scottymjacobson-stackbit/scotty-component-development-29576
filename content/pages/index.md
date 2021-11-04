@@ -117,7 +117,7 @@ sections:
         alignItems: flex-end
         justifyContent: center
     enableHover: true
-  - colors: colors-b
+  - colors: colors-d
     backgroundWidth: full
     elementId: ''
     images:
