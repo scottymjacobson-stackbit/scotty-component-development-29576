@@ -67,7 +67,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     showCaption: true
-    colors: colors-e
+    colors: colors-f
     backgroundWidth: full
     elementId: ''
     images:
