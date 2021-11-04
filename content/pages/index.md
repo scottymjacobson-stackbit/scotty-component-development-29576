@@ -117,28 +117,6 @@ sections:
         alignItems: flex-end
         justifyContent: center
     enableHover: true
-  - colors: colors-a
-    backgroundWidth: full
-    elementId: ''
-    images:
-      - url: images/hilary-ouse.jpg
-        altText: Hilary Ouse
-    spacing: 1
-    showCaption: false
-    enableHover: true
-    styles:
-      self:
-        height: auto
-        width: full
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-    type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
