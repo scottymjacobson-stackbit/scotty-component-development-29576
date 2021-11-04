@@ -98,7 +98,7 @@ sections:
     spacing: 1
     imageSizePx: 150
     colors: colors-e
-    backgroundWidth: full
+    backgroundWidth: inset
     elementId: ''
     images:
       - url: images/hilary-ouse.jpg
