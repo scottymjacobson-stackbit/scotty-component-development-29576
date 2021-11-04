@@ -145,7 +145,7 @@ sections:
         padding:
           - pt-0
           - pb-12
-        height: auto
+        height: screen
     type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
