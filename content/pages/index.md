@@ -66,7 +66,7 @@ sections:
       actions:
         justifyContent: flex-start
   - elementId: ''
-    colors: colors-f
+    colors: colors-e
     backgroundWidth: full
     title: Some Fine Folks Who Work With Us
     subtitle: Join the team?
