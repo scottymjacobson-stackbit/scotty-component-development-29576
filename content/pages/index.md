@@ -233,7 +233,7 @@ sections:
       actions:
         justifyContent: center
   - colors: colors-a
-    backgroundWidth: full
+    backgroundWidth: inset
     elementId: ''
     images:
       - url: images/hilary-ouse.jpg
