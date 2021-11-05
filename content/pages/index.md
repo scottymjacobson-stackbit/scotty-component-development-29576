@@ -255,6 +255,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/desmond-eagle.jpg
     spacing: 2
     columns: '5'
     imageSizePx: 200
