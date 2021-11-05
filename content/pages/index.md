@@ -187,7 +187,7 @@ sections:
       - url: /images/isabelle-parks.jpg
         altText: Photo of Isabelle Parks
         caption: Isabelle Parks
-    spacing: 4
+    spacing: 1
     imageSizePx: 500
     showCaption: false
     enableHover: true
