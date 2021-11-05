@@ -89,7 +89,7 @@ function MediaGalleryHeader(props: MediaGallerySectionProps) {
     const styles = props.styles || {};
 
     return (
-        <div className="w-full">
+        <div className="w-full pb-4">
             {props.title && (
                 <h2 className={classNames('text-3xl', 'sm:text-4xl', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
                     {props.title}
