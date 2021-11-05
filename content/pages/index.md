@@ -232,7 +232,7 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - colors: colors-a
+  - colors: colors-c
     backgroundWidth: full
     elementId: ''
     images:
