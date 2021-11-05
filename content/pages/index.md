@@ -232,6 +232,48 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
+  - colors: colors-a
+    backgroundWidth: full
+    elementId: ''
+    title: Some photos
+    subtitle: Aren't they lovely photos?
+    images:
+      - url: images/hilary-ouse.jpg
+        caption: Hilary Ouse
+        altText: Photo of Hilary Ouse
+      - url: /images/isabelle-parks.jpg
+        altText: Photo of Isabelle Parks
+        caption: Isabelle Parks
+      - url: /images/desmond-eagle.jpg
+        altText: Photo of Diamond Eagle
+        caption: Diamond Eagle
+      - url: /images/hugh-saturation.jpg
+        altText: Photo of Flower Man
+        caption: Flower Man
+    spacing: 1
+    columns: 4
+    imageSizePx: 120
+    showCaption: false
+    enableHover: true
+    styles:
+      self:
+        width: full
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+        height: auto
+      title:
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+    type: MediaGallerySection
   - elementId: ''
     variant: variant-a
     colors: colors-a
