@@ -187,9 +187,6 @@ sections:
       - url: /images/isabelle-parks.jpg
         altText: Photo of Isabelle Parks
         caption: Isabelle Parks
-      - url: /images/desmond-eagle.jpg
-        altText: Photo of Diamond Eagle
-        caption: Diamond Eagle
     spacing: 1
     imageSizePx: 120
     showCaption: false
