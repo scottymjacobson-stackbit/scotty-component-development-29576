@@ -190,7 +190,7 @@ sections:
     spacing: 1
     imageSizePx: 500
     showCaption: false
-    enableHover: true
+    enableHover: false
     styles:
       self:
         width: full
