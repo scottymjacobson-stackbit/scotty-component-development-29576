@@ -248,7 +248,7 @@ sections:
       - url: /images/hugh-saturation.jpg
         altText: Photo of Flower Man
         caption: Flower Man
-    spacing: 3
+    spacing: 2
     columns: '2'
     imageSizePx: 200
     showCaption: true
