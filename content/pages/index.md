@@ -250,7 +250,7 @@ sections:
         caption: Flower Man
     spacing: 1
     columns: '3'
-    imageSizePx: 300
+    imageSizePx: 200
     showCaption: false
     enableHover: true
     styles:
