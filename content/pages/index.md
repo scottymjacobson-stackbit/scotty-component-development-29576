@@ -249,7 +249,7 @@ sections:
         altText: Photo of Flower Man
         caption: Flower Man
       - altText: lorem-ipsum
-        caption: lorem-ipsum
+        caption: Desmond Eagle
         elementId: ''
         styles:
           self:
