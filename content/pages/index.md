@@ -232,7 +232,7 @@ sections:
           - pb-12
         height: auto
     type: MediaGallerySection
-    columns: '3'
+    columns: '4'
   - colors: colors-a
     backgroundWidth: full
     elementId: ''
