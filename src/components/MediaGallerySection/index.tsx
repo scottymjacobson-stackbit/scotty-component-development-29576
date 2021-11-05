@@ -71,8 +71,8 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                         sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null // TODO - should this width handler be up a level and get rid of this div?
                     )}
                 >
-                    {/* Inline-block div that will grow to the width of the grid so we can left-align / right align text */}
-                    <div className="inline-block">
+                    {/* Inline-block div that will grow to the width of the image grid so we can left-align / right align text with the edges of the grid */}
+                    <div className="inline-block max-w-full">
                         <MediaGalleryHeader {...props} />
                         <MediaGalleryImageGrid {...props} />
                     </div>
