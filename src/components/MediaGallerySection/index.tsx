@@ -1,5 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
 
 type BaseSectionComponentProps = {
@@ -17,6 +18,8 @@ type Image = {
 };
 
 export type MediaGallerySectionProps = BaseSectionComponentProps & {
+    title?: string;
+    subtitle?: string;
     images?: Image[];
     spacing?: number;
     columns?: number;
@@ -68,9 +71,35 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                         sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null // TODO - should this width handler be up a level and get rid of this div?
                     )}
                 >
-                    <MediaGalleryImages {...props} />
+                    {/* Inline-block div that will grow to the width of the grid so we can left-align / right align text */}
+                    <div className="inline-block">
+                        <MediaGalleryHeader {...props} />
+                        <MediaGalleryImageGrid {...props} />
+                    </div>
                 </div>
             </div>
+        </div>
+    );
+}
+
+function MediaGalleryHeader(props: MediaGallerySectionProps) {
+    if (!props.title && !props.subtitle) {
+        return null;
+    }
+    const styles = props.styles || {};
+
+    return (
+        <div className="w-full">
+            {props.title && (
+                <h2 className={classNames('text-3xl', 'sm:text-4xl', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                    {props.title}
+                </h2>
+            )}
+            {props.subtitle && (
+                <p className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null)} data-sb-field-path=".subtitle">
+                    {props.subtitle}
+                </p>
+            )}
         </div>
     );
 }
@@ -90,7 +119,7 @@ function LogoImage({ image, enableHover }: { image: Image; enableHover: boolean 
     );
 }
 
-function MediaGalleryImages(props: MediaGallerySectionProps) {
+function MediaGalleryImageGrid(props: MediaGallerySectionProps) {
     const images = props.images || [];
     if (images.length === 0) {
         return null;
