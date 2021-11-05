@@ -55,7 +55,7 @@ fields:
     name: styles
     styles:
       self:
-        width: ['inset', 'full']
+        width: ['narrow', 'wide', 'full']
         margin: ['twt0:36', 'twb0:36']
         padding: ['twt0:36', 'twb0:36']
         # TODO:
