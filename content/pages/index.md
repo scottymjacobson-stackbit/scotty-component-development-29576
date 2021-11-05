@@ -232,47 +232,6 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - colors: colors-c
-    backgroundWidth: full
-    elementId: ''
-    images:
-      - url: images/hilary-ouse.jpg
-        caption: Hilary Ouse
-        altText: Photo of Hilary Ouse
-      - url: /images/isabelle-parks.jpg
-        altText: Photo of Isabelle Parks
-        caption: Isabelle Parks
-      - url: /images/desmond-eagle.jpg
-        altText: Photo of Diamond Eagle
-        caption: Diamond Eagle
-      - url: /images/hugh-saturation.jpg
-        altText: Photo of Flower Man
-        caption: Flower Man
-      - altText: lorem-ipsum
-        caption: Desmond Eagle
-        elementId: ''
-        styles:
-          self:
-            opacity: 100
-        type: ImageBlock
-        url: /images/desmond-eagle.jpg
-    spacing: 2
-    columns: '5'
-    imageSizePx: 250
-    showCaption: true
-    enableHover: true
-    styles:
-      self:
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        height: auto
-    type: MediaGallerySection
-    title: Swag
   - elementId: ''
     variant: variant-a
     colors: colors-a
