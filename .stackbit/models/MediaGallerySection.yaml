@@ -22,6 +22,11 @@ fields:
     name: spacing
     label: Spacing between images
     default: 1
+  - type: enum
+    name: columns
+    label: Images per row
+    default: 4
+    values: [1, 2, 3, 4, 5, 6]
   - type: number
     name: imageSizePx
     label: Max image size, in px
