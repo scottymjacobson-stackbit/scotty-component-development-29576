@@ -255,7 +255,7 @@ sections:
     enableHover: true
     styles:
       self:
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
