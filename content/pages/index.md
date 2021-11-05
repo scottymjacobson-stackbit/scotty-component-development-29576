@@ -272,6 +272,7 @@ sections:
           - pb-12
         height: auto
     type: MediaGallerySection
+    title: Swag
   - type: TestimonialsSection
     colors: colors-h
     backgroundWidth: full
