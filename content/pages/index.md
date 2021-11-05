@@ -201,31 +201,6 @@ sections:
           - pb-12
         height: auto
     type: MediaGallerySection
-  - colors: colors-a
-    backgroundWidth: full
-    elementId: ''
-    images:
-      - url: images/hilary-ouse.jpg
-        caption: Hilary Ouse
-        altText: Photo of Hilary Ouse
-      - url: /images/isabelle-parks.jpg
-        altText: Photo of Isabelle Parks
-        caption: Isabelle Parks
-    spacing: 1
-    imageSizePx: 500
-    showCaption: false
-    enableHover: true
-    styles:
-      self:
-        width: full
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        height: auto
-    type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
