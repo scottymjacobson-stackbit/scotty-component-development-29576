@@ -140,6 +140,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/hugh-saturation.jpg
     styles:
       self:
         height: auto
