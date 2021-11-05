@@ -96,7 +96,7 @@ sections:
   - type: MediaGallerySection
     showCaption: false
     spacing: 1
-    imageSizePx: 150
+    imageSizePx: 154
     colors: colors-e
     backgroundWidth: full
     elementId: ''
