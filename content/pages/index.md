@@ -263,7 +263,7 @@ sections:
     enableHover: true
     styles:
       self:
-        width: full
+        width: narrow
         margin:
           - mt-0
           - mb-0
@@ -272,6 +272,7 @@ sections:
           - pb-12
         height: auto
     type: MediaGallerySection
+    title: Swag
   - type: TestimonialsSection
     colors: colors-h
     backgroundWidth: full
