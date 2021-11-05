@@ -94,7 +94,7 @@ sections:
         textAlign: center
     type: TextSection
   - type: MediaGallerySection
-    showCaption: false
+    showCaption: true
     spacing: 1
     imageSizePx: 150
     colors: colors-e
