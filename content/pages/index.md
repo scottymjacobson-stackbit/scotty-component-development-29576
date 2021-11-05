@@ -188,7 +188,7 @@ sections:
         altText: Photo of Isabelle Parks
         caption: Isabelle Parks
     spacing: 1
-    imageSizePx: 120
+    imageSizePx: 500
     showCaption: false
     enableHover: true
     styles:
