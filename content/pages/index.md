@@ -250,6 +250,13 @@ sections:
       - url: /images/hugh-saturation.jpg
         altText: Photo of Flower Man
         caption: Flower Man
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     spacing: 1
     columns: 4
     imageSizePx: 120
