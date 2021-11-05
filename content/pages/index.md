@@ -148,7 +148,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
-        url: /images/contact.png
+        url: /images/isabelle-parks.jpg
       - altText: lorem-ipsum
         caption: lorem-ipsum
         elementId: ''
