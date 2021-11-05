@@ -97,7 +97,6 @@ sections:
     showCaption: true
     spacing: 1
     imageSizePx: 150
-    columns: 2
     colors: colors-e
     backgroundWidth: full
     elementId: ''
