@@ -258,7 +258,7 @@ sections:
         url: /images/desmond-eagle.jpg
     spacing: 2
     columns: '5'
-    imageSizePx: 200
+    imageSizePx: 250
     showCaption: true
     enableHover: true
     styles:
