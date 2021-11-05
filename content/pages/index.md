@@ -251,7 +251,7 @@ sections:
     spacing: 1
     columns: '2'
     imageSizePx: 200
-    showCaption: false
+    showCaption: true
     enableHover: true
     styles:
       self:
