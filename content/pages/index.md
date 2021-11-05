@@ -249,7 +249,7 @@ sections:
         altText: Photo of Flower Man
         caption: Flower Man
     spacing: 1
-    columns: '2'
+    columns: '3'
     imageSizePx: 120
     showCaption: false
     enableHover: true
