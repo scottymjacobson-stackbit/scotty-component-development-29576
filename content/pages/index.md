@@ -141,6 +141,13 @@ sections:
             opacity: 100
         type: ImageBlock
         url: /images/hugh-saturation.jpg
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     styles:
       self:
         height: auto
