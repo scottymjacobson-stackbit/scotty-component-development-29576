@@ -190,9 +190,6 @@ sections:
       - url: /images/desmond-eagle.jpg
         altText: Photo of Diamond Eagle
         caption: Diamond Eagle
-      - url: /images/hugh-saturation.jpg
-        altText: Photo of Flower Man
-        caption: Flower Man
     spacing: 1
     imageSizePx: 120
     showCaption: false
