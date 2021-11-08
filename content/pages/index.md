@@ -307,7 +307,7 @@ sections:
           - pt-12
           - pb-12
         height: auto
-        borderRadius: xx-small
+        borderRadius: x-small
       title:
         fontWeight: 700
         fontStyle: normal
