@@ -33,7 +33,7 @@ sections:
           - mb-0
         padding:
           - pt-12
-          - pb-20
+          - pb-10
         height: auto
       title:
         fontWeight: 700
