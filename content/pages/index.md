@@ -309,7 +309,7 @@ sections:
         height: auto
         borderRadius: large
         borderColor: border-primary
-        borderWidth: 3
+        borderWidth: 4
         borderStyle: dashed
       title:
         fontWeight: 700
