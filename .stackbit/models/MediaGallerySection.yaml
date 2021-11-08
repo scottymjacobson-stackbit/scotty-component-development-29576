@@ -29,8 +29,8 @@ fields:
   - type: number
     name: spacing
     label: Spacing between images
+    controlType: 'slider'
     default: 1
-    
   - type: enum
     name: columns
     label: Images per row
