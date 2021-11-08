@@ -307,7 +307,7 @@ sections:
           - pt-12
           - pb-12
         height: auto
-        borderRadius: x-small
+        borderRadius: large
         borderColor: border-primary
         borderWidth: 2
         borderStyle: dashed
