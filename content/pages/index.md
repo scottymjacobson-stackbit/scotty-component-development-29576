@@ -3,7 +3,7 @@ title: Home
 layout: PageLayout
 sections:
   - colors: colors-a
-    backgroundWidth: full
+    backgroundWidth: inset
     elementId: ''
     title: Some photos
     subtitle: Aren't they lovely photos?
