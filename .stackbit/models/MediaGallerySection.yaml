@@ -53,6 +53,12 @@ fields:
       - label: 6
         value: 6
   - type: number
+        controlType: 'slider'
+    min: 0
+    max: 30
+    step: 1
+    unit: 'rem'
+    default: 1
     name: imageSizePx
     label: Max image size, in px
     default: 120
