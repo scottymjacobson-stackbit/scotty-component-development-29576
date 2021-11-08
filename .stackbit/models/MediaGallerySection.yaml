@@ -30,6 +30,9 @@ fields:
     name: spacing
     label: Spacing between images
     controlType: 'slider'
+            min: 0
+        max: 30
+        step: 1
     default: 1
   - type: enum
     name: columns
