@@ -310,6 +310,7 @@ sections:
         borderRadius: x-small
         borderColor: border-primary
         borderWidth: 2
+        borderStyle: dashed
       title:
         fontWeight: 700
         fontStyle: normal
