@@ -29,7 +29,7 @@ sections:
       self:
         width: full
         margin:
-          - mt-10
+          - mt-0
           - mb-0
         padding:
           - pt-12
