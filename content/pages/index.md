@@ -2,7 +2,7 @@
 title: Home
 layout: PageLayout
 sections:
-  - colors: colors-a
+  - colors: colors-d
     backgroundWidth: full
     elementId: ''
     title: Some photos
