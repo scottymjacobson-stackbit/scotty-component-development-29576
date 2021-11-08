@@ -30,6 +30,7 @@ fields:
     name: spacing
     label: Spacing between images
     default: 1
+    
   - type: enum
     name: columns
     label: Images per row
