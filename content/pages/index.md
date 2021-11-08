@@ -309,6 +309,7 @@ sections:
         height: auto
         borderRadius: x-small
         borderColor: border-primary
+        borderWidth: 2
       title:
         fontWeight: 700
         fontStyle: normal
