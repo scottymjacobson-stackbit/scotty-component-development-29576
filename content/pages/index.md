@@ -30,7 +30,7 @@ sections:
         width: full
         margin:
           - mt-0
-          - mb-0
+          - mb-10
         padding:
           - pt-12
           - pb-12
