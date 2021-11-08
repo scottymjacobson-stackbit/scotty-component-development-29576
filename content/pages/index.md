@@ -34,7 +34,7 @@ sections:
         padding:
           - pt-12
           - pb-12
-        height: auto
+        height: screen
       title:
         fontWeight: 700
         fontStyle: normal
