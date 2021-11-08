@@ -57,11 +57,10 @@ fields:
     min: 50
     max: 300
     step: 1
-    unit: 'rem'
-    default: 1
+    unit: 'px'
+    default: 120
     name: imageSizePx
     label: Max image size, in px
-    default: 120
   - type: boolean
     name: showCaption
     label: Show caption
