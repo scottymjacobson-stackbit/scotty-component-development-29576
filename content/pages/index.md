@@ -353,6 +353,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /favicon.svg
     spacing: 1
     columns: 4
     imageSizePx: 120
