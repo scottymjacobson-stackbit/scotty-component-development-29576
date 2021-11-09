@@ -280,7 +280,7 @@ sections:
         borderColor: border-primary
         borderWidth: 4
         borderStyle: dashed
-        justifyContent: flex-end
+        justifyContent: center
       title:
         fontWeight: 700
         fontStyle: normal
