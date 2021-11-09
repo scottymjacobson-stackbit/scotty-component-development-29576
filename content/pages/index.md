@@ -341,6 +341,46 @@ sections:
         textAlign: center
       text:
         textAlign: center
+  - colors: colors-a
+    elementId: ''
+    title: Some photos
+    subtitle: Aren't they lovely photos?
+    images: []
+    spacing: 1
+    columns: 4
+    imageSizePx: 120
+    showCaption: false
+    enableHover: true
+    styles:
+      self:
+        width: full
+        height: auto
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
+      title:
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-2
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-12
+    type: MediaGallerySection
   - type: ContactSection
     colors: colors-h
     backgroundWidth: full
