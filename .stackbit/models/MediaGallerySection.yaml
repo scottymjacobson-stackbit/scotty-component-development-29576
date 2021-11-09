@@ -27,7 +27,8 @@ fields:
       type: model
       models: [ImageBlock]
       default:
-        - url: https://loremflickr.com/cache/resized/65535_51377543930_d101570b6d_b_640_640_nofilter.jpg
+        - type: ImageBlock
+          url: https://loremflickr.com/cache/resized/65535_51377543930_d101570b6d_b_640_640_nofilter.jpg
           altText: Cute Cat
           caption: Look! It's a cat!
   - type: number
