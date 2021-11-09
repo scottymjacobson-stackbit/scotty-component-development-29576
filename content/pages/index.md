@@ -107,34 +107,6 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
-  - elementId: ''
-    colors: colors-e
-    backgroundWidth: full
-    title: Some Fine Folks Who Work With Us
-    subtitle: Join the team?
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-4
-        alignItems: center
-        justifyContent: center
-      title:
-        fontWeight: 700
-        fontStyle: normal
-        textAlign: center
-      subtitle:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: center
-      text:
-        textAlign: center
-    type: TextSection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
