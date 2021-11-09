@@ -212,37 +212,6 @@ sections:
         alignItems: flex-end
         justifyContent: center
     enableHover: true
-  - colors: colors-e
-    backgroundWidth: full
-    elementId: ''
-    images:
-      - url: images/hilary-ouse.jpg
-        caption: Hilary Ouse
-        altText: Photo of Hilary Ouse
-      - url: /images/isabelle-parks.jpg
-        altText: Photo of Isabelle Parks
-        caption: Isabelle Parks
-      - url: /images/desmond-eagle.jpg
-        altText: Photo of Diamond Eagle
-        caption: Diamond Eagle
-      - url: /images/hugh-saturation.jpg
-        altText: Photo of Flower Man
-        caption: Flower Man
-    spacing: 1
-    imageSizePx: 150
-    showCaption: false
-    enableHover: true
-    styles:
-      self:
-        width: full
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-0
-          - pb-12
-        height: auto
-    type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
