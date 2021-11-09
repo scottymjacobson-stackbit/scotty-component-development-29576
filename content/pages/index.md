@@ -35,6 +35,7 @@ sections:
           - pt-12
           - pb-12
         height: auto
+        justifyContent: center
       title:
         fontWeight: 700
         fontStyle: normal
