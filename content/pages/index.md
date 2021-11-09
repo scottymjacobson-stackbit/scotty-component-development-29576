@@ -453,6 +453,7 @@ sections:
           self:
             opacity: 100
         type: ImageBlock
+        url: /images/stackbit.svg
     spacing: 1
     columns: 4
     imageSizePx: 120
