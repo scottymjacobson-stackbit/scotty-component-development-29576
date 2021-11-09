@@ -445,7 +445,14 @@ sections:
     elementId: ''
     title: Some photos
     subtitle: Aren't they lovely photos?
-    images: []
+    images:
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     spacing: 1
     columns: 4
     imageSizePx: 120
