@@ -487,7 +487,7 @@ sections:
         textAlign: center
         margin:
           - mt-0
-          - mb-12
+          - mb-0
     type: MediaGallerySection
   - type: ContactSection
     colors: colors-h
